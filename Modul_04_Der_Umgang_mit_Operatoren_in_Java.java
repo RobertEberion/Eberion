@@ -10,15 +10,17 @@ public class Modul_04_Der_Umgang_mit_Operatoren_in_Java
 	//	verbinden Variablen und Konstanten (fester Wert) zu Ausdrücken
 									
 	/*	unäre Operatoren: 	1 Operand		Betrifft eine Variable oder Konstante
-	 * 	Bsp:	Vorzeichenoperator: -a
-	 *			Postinkrement: a++
-	 *			Negation: !a
+	 * 	Bsp:			Vorzeichenoperator: -a
+	 *				Postinkrement: a++
+	 *				Negation: !a
+  
 	 * 	binäre Operatoren:	2 Operanden		Betrifft zwei Variablen oder Konstanten
-	 * 	Bsp:	Addition:  a + b
-	 *			logischer Vergleich: a ==  b
+	 * 	Bsp:			Addition:  a + b
+	 *				logischer Vergleich: a ==  b
+  
 	 * 	ternäre Operatoren:	3 Operanden		Betriftt drei Variablen oder Konstanten
-	 * 	Bsp:	Bedingungsoperator ?
-	 *			max = (a > b) ? a : b;
+	 * 	Bsp:			Bedingungsoperator ?
+	 *				max = (a > b) ? a : b;
 	 */
 	
 	//	jeder Operator besitzt eine "Priorität"
@@ -54,17 +56,17 @@ public class Modul_04_Der_Umgang_mit_Operatoren_in_Java
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 //	Arithmetische Operatoren	--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	
-	/*		Operator		Beschreibung								Beispiel
+	/*		Operator			Beschreibung								Beispiel
 	 * 
-	 * 		-				Vorzeichen -								zahl = -3;
-	 *		+				Vorzeichen +								zahl = 3 oder zahl = +3
+	 * 		-				Vorzeichen -							zahl = -3;
+	 *		+				Vorzeichen +							zahl = 3 oder zahl = +3
+	 
+	 *		+				Addition							zahl = 3 + 4;
+	 *		-				Subtraktion							zahl = 3 - 4;
+	 *		*				Multiplikation							zahl = 3 * 4;
+	 *		/				Division							zahl = 3 / 4;
 	 *
-	 *		+				Addition									zahl = 3 + 4;
-	 *		-				Subtraktion									zahl = 3 - 4;
-	 *		*				Multiplikation								zahl = 3 * 4;
-	 *		/				Division									zahl = 3 / 4;
-	 *
-	 *		%				Modulo Operator								zahl = 32 % 3; (Ergebnis: 2)
+	 *		%				Modulo Operator							zahl = 32 % 3; (Ergebnis: 2)
 	 *						(Rest der nach Division übrig ist)
 	 *						(Geht nur mit Ganzzahlen!)
 	 */				
@@ -125,16 +127,16 @@ public class Modul_04_Der_Umgang_mit_Operatoren_in_Java
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 //	Die Vergleichsoperatoren	--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-	/*		Operator		Beschreibung					Beispiel
+	/*		Operator		Beschreibung				Beispiel
 	 * 
-	 * 		<				kleiner als						1 < 6 (true)	
-	 * 		>				größer als						1 > 6 (false)
+	 * 		<			kleiner als				1 < 6 (true)	
+	 * 		>			größer als				1 > 6 (false)
 	 * 
-	 * 		<=				kleiner als oder gleich			4 <= 4 (true)	3 <= 4 (true)
-	 * 		>=				größer als oder gleich			4 >= 4 (true)	6 >= 4 (true)
+	 * 		<=			kleiner als oder gleich			4 <= 4 (true)	3 <= 4 (true)
+	 * 		>=			größer als oder gleich			4 >= 4 (true)	6 >= 4 (true)
 	 * 
-	 * 		==				gleich							4 == 4 (true) 	3 == 4 (false)
-	 * 		!=				ungleich						4 != 4 (false)	3 != 4 (true)
+	 * 		==			gleich					4 == 4 (true) 	3 == 4 (false)
+	 * 		!=			ungleich				4 != 4 (false)	3 != 4 (true)
 	 */
 	
 	boolean wahrheitswert = 5 <= 10; //Zum testen für die Operatoren
@@ -145,14 +147,14 @@ public class Modul_04_Der_Umgang_mit_Operatoren_in_Java
 //	Logische Operatoren		------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	
 	/*		Operator		Beschreibung		Beispiel
-	 * 		||				logisches ODER		(a < b) || (c == d)			Wenn eine der beiden Operatoren den Wert true geben, ist das Ergebnis true
-	 * 						(kurz: OR)										Die eine Klammer ODER die andere Klammer muss true sein.
+	 * 		||			logisches ODER		(a < b) || (c == d)			Wenn eine der beiden Operatoren den Wert true geben, ist das Ergebnis true
+	 * 					(kurz: OR)							Die eine Klammer ODER die andere Klammer muss true sein.
 	 * 		
-	 * 		&&				logisches UND		(a < b) && (c == d)			Nur wenn beide Operatoren den Wert true geben dann ist das Ergebnios true, ansonsten ist es false
-	 * 						(kurz: AND)										BEIDE Klammern müssen true sein 
+	 * 		&&			logisches UND		(a < b) && (c == d)			Nur wenn beide Operatoren den Wert true geben dann ist das Ergebnios true, ansonsten ist es false
+	 * 					(kurz: AND)							BEIDE Klammern müssen true sein 
 	 * 
-	 * 		!				logisches NICHT		!b							Der nachfolgende Ausdruck wird verneint
-	 * 						kurz: NOT)
+	 * 		!			logisches NICHT		!b					Der nachfolgende Ausdruck wird verneint
+	 * 					kurz: NOT)
 	 */
 		
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -161,20 +163,20 @@ public class Modul_04_Der_Umgang_mit_Operatoren_in_Java
 	
 	/*		Operator			Beschreibung						Beispiel
 	 * 
-	 * 		<<					Linksshift							x << 1;		x << 4;
-	 * 							(alle Bits nach links schieben)
+	 * 		<<				Linksshift						x << 1;		x << 4;
+	 * 						(alle Bits nach links schieben)
 	 * 		
-	 * 		>>					Rechtsshift							x >> 1;		x >> 4;
-	 * 							(alle Bits nach rechts schieben)			
+	 * 		>>				Rechtsshift						x >> 1;		x >> 4;
+	 * 						(alle Bits nach rechts schieben)			
 	 * 
-	 * 		&					UND-Operator						2 & 3
-	 * 							(kurz: AND)
+	 * 		&				UND-Operator						2 & 3
+	 * 						(kurz: AND)
 	 * 
-	 * 		|					ODER-Operator						2 | 3
-	 * 							(kurz: OR)
+	 * 		|				ODER-Operator						2 | 3
+	 * 						(kurz: OR)
 	 * 
-	 * 		^					exklusiv-Oder-Operator				2 ^ 3
-	 * 							(kurz: XOR)
+	 * 		^				exklusiv-Oder-Operator					2 ^ 3
+	 * 						(kurz: XOR)
 	 */
 	
 	//------------------------------------------------------------------
@@ -182,10 +184,10 @@ public class Modul_04_Der_Umgang_mit_Operatoren_in_Java
 			int u = 6;
 			int z = u & 0xFD;
 	
-	/*		(6)				0000 0110	Nur die Bits die 1 untereinandner haben ergeben als Bit unten 1, der Rest wird zu 0
-	 * 		& (0xFD)		1111 1101
+	/*		(6)		0000 0110	Nur die Bits die 1 untereinandner haben ergeben als Bit unten 1, der Rest wird zu 0
+	 * 		& (0xFD)	1111 1101
 	 * 		-------------------------
-	 * 						0000 0100 => Ergebnis ist gleich 4
+	 * 				0000 0100 => Ergebnis ist gleich 4
 	 */
 					
 	System.out.println("Ergebnis: " + z);
@@ -195,10 +197,10 @@ public class Modul_04_Der_Umgang_mit_Operatoren_in_Java
 			u = 6;
 			z = u | 0x01;
 
-	/*		(6)				0000 0110	Die Bits die 1 haben bleiben  unten 1 und werden zusammengeführt
-	 * 		& (0x01)		0000 0001
+	/*		(6)		0000 0110	Die Bits die 1 haben bleiben  unten 1 und werden zusammengeführt
+	 * 		& (0x01)	0000 0001
 	 * 		-------------------------
-	 * 						0000 0111 => Ergebnis ist gleich 7
+	 * 				0000 0111 => Ergebnis ist gleich 7
 	 */
 			
 	System.out.println("Ergebnis: " + z);
@@ -208,10 +210,10 @@ public class Modul_04_Der_Umgang_mit_Operatoren_in_Java
 			u = 6;
 			z = u ^ 0x0F;
 
-	/*		(6)				0000 0110	Die Bits die 1 untereinander haben werden zu 0 invertiert
-	 * 		& (0x0F)		0000 1111
+	/*		(6)		0000 0110	Die Bits die 1 untereinander haben werden zu 0 invertiert
+	 * 		& (0x0F)	0000 1111
 	 * 		-------------------------
-	 * 						0000 1001 => Ergebnis ist gleich 9
+	 * 				0000 1001 => Ergebnis ist gleich 9
 	 */
 	
 	System.out.println("Ergebnis: " + z);	
@@ -220,36 +222,36 @@ public class Modul_04_Der_Umgang_mit_Operatoren_in_Java
 //	Operatoren Prioritäten (Rangfolge)	------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 	// 	- regelt welcher Operator Vorrang hat
 	 
-	/*				Rangfolge		Typ														Operatoren
+	/*				Rangfolge		Typ									Operatoren
 					
-					1				Postfix-Operatoren, Postinkrement, Postdekrement		x++, x--
+					1			Postfix-Operatoren, Postinkrement, Postdekrement			x++, x--
 					
-					2				Einstellige (unäre) Operatoren, Vorzeichen				++x, --x, +x, -x, ~b, !b
+					2			Einstellige (unäre) Operatoren, Vorzeichen				++x, --x, +x, -x, ~b, !b
 
-					3				Multiplikation, Teilerrest								a*b, a/b, a % b
+					3			Multiplikation, Teilerrest						a*b, a/b, a % b
 					
-					4				Addition, Subtraktion									a + b, a - b
+					4			Addition, Subtraktion							a + b, a - b
 					
-					5				Bitverschiebung											d << k, d >> k, d >>> k
+					5			Bitverschiebung								d << k, d >> k, d >>> k
 					
-					6				Vergleiche												a < b, a > b, a <= b, a >= b, s instanceof S
+					6			Vergleiche								a < b, a > b, a <= b, a >= b, s instanceof S
 					
-					7				Gleich, Ungleich										a == b, a != b
+					7			Gleich, Ungleich							a == b, a != b
 					
-					8				UND (Bits)												b & c
+					8			UND (Bits)								b & c
 					
-					9				Exor (Bits)												b ^ c
+					9			Exor (Bits)								b ^ c
 					
-					10				ODER (Bits)												b | c
+					10			ODER (Bits)								b | c
 					
-					11				Logisch UND												B && C
+					11			Logisch UND								B && C
 					
-					12				Logisch ODER											B || C
+					12			Logisch ODER								B || C
 					
-					13				Bedingungsoperator										a ? b : c
+					13			Bedingungsoperator							a ? b : c
 					
-					14				Zuweisungen												a = b, a += 3, a -= 3, a *= 3, a /= 3, a %= 3, b &= c, 
-																							b ^= c, b |= c, d <<=k, d >>= k, d >>>= k	
+					14			Zuweisungen								a = b, a += 3, a -= 3, a *= 3, a /= 3, a %= 3, b &= c, 
+																	b ^= c, b |= c, d <<=k, d >>= k, d >>>= k	
 	 * 
 	 */
 	
