@@ -20,29 +20,29 @@ public class Modul_02_Variablen_und_Datentypen {
 		 * (Soll sprechend beschriftet werden, man soll es schon als Variable erkennen was diese ist.)
 		 */
 		
-		int 		jahresZahl		= 						1980;
+		int 		jahresZahl		= 				1980;
 	//	Datentyp	Bezeichner		Zuweisungsoperator		Wert
 		
 		int meinAlter = 80;		//Initiaslisierung einer Variable: 		Direkte Zuweisung eines Werts an die Variable
 		
 		int meinAlter2;			//Deklaration einer Variable: 			Erzeugung einer Variable
 		
-		meinAlter2 = 10;		//Zuweisung: 							Da man nur ein Wert für die Variable reinstellt
+		meinAlter2 = 10;		//Zuweisung: 					Da man nur ein Wert für die Variable reinstellt
 		
 		meinAlter = 81;			//Zuweisung
 		
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 //--	Primtive Datentypen - Ein Überblick 	----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 		
-		/*	Primitiver Datentyp				Größe				Wertebereich
-		 * 		boolean						undefiniert			true/false
-		 * 		char						16	Bit				0 							bis 	+65 535
-		 * 		byte						8	Bit				-128 						bis 	+127
-		 * 		short						16	Bit				-32768 						bis 	32767
-		 * 		int							32	Bit				-2^31						bis		2^31 - 1
-		 * 		long						64	Bit				-2^63						bis		2^63 - 1
-		 * 		float						32	Bit				1.40239846E-45				bis		3.40282347E+38	
-		 * 		double						64	Bit				4.94065645841246544E-324	bis		1.79769131486231570E+308
+		/*	Primitiver Datentyp					Größe					Wertebereich
+		 * 		boolean						undefiniert				true/false
+		 * 		char						16	Bit				0 				bis 	+65 535
+		 * 		byte						8	Bit				-128 				bis 	+127
+		 * 		short						16	Bit				-32768 				bis 	32767
+		 * 		int						32	Bit				-2^31				bis	2^31 - 1
+		 * 		long						64	Bit				-2^63				bis	2^63 - 1
+		 * 		float						32	Bit				1.40239846E-45			bis	3.40282347E+38	
+		 * 		double						64	Bit				4.94065645841246544E-324	bis	1.79769131486231570E+308
 		 * 	
 		 * 	Komplexer Datentyp
 		 * 		String	= können mehrere Zeichen gespeichert werden
