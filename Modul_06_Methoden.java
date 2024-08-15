@@ -17,7 +17,7 @@ public class Modul_06_Methoden {
 		 */
 	
 		/*	Vorteile der Methoden:	- bessere Strukturierung des Programs
-	 								- führen bereits geschriebenen Code mit nur einem Befehl erneut aus, z.B. System.out.println();
+	 					- führen bereits geschriebenen Code mit nur einem Befehl erneut aus, z.B. System.out.println();
 		 */
 		
 		
@@ -33,7 +33,7 @@ public class Modul_06_Methoden {
 		//Im runden Klammerpaar kommen die Übergabeparameter rein, hier wird dies aber nicht benötigt
 		
 		/*void: bedeutet übersetzt Leer.
-		 		in diesem Typ wird nichts gespeichert, deswegen wird hier kein Übergabeparameter und kein Rückgabewert verwendet
+		 	in diesem Typ wird nichts gespeichert, deswegen wird hier kein Übergabeparameter und kein Rückgabewert verwendet
 		*/
 		
 		
@@ -55,7 +55,7 @@ public class Modul_06_Methoden {
 		int zahlb = 0;
 		int ergebnisc = 0;
 		
-		//Hier wird aus der Methode direkt ein Rückgabewert angefordert aus zahla und zahlb, diesen beschreiben wir hier als ergebnisc
+		//Hier wird aus der Methode direkt ein Rückgabewert angefordert aus zahla und zahlb, diesen beschreiben wir hier als ergebnis
 		ergebnisc = addierer3(zahla, zahlb);
 		
 		System.out.println("2.Das Ergebnis ist: " + ergebnisc);
