@@ -21,10 +21,10 @@ public class Modul_01_Wichtige_Einführung {
 		 * Java Bytecode wird mit einer JavaVirtuelMachine JVM in Maschinensprache übersetzt und ausgeführt
 		 * 
 		 * JAVA Quellcode 		-> 		Compiler 	=> 		Java Bytecode 	-> 		JVM 	=> 		Maschinensprache 	=> 		Anwendung
-		 * ---------Plattform-Unabhängig-------------------------------------|----------Plattform-Abhängig-------------------------------
+		 * ----------------------------Plattform-Unabhängig----------------------------------------------|---------------------------------------Plattform-Abhängig-------------------------------
 		 * 
 		 * C Quellcode 			-> 		Compiler => 		Maschinencode 	=> 		Anwendung
-		 * -Plattform-Unabhängig-|----------Plattform-Anhängig-------------------------------
+		 * -Plattform-Unabhängig---------|----------Plattform-Abhängig----------------------------------------------------
 		 */
 		
 	}
