@@ -14,12 +14,12 @@ public class Modul_05_Die_verschiedenen_Kontrollstrukturen
 		 * 	-	Werkzeug zum Treffen von Entscheidungen
 		 * 
 		 * 	Verzweigung:	-	if Verzweigung
-		 * 					-	if mit else Verzweigung
-		 * 					-	Switch-Case Anweisung
+		 * 			-	if mit else Verzweigung
+		 * 			-	Switch-Case Anweisung
 		 * 
-		 * 	Schleifen:		-	While Schleife (kopfgesteuerte Schleife)
-		 * 					-	do-While Schleife (fußgesteuerte Schleife)
-		 * 					-	for Schleife
+		 * 	Schleifen:	-	While Schleife (kopfgesteuerte Schleife)
+		 * 			-	do-While Schleife (fußgesteuerte Schleife)
+		 * 			-	for Schleife
 		 */
 		
 		
@@ -34,7 +34,7 @@ public class Modul_05_Die_verschiedenen_Kontrollstrukturen
 		zahl = sc.nextInt();
 		
 		if(zahl < 30) 	//Im runden Klammerpaar ist die Bedingung der if-Verzweigung, diese setzt sich immer aus Vergleichsoperatoren und logische Operatoren zusammen.
-						//Am Ende muss immer ein Wahrheitswert rauskommen.
+				//Am Ende muss immer ein Wahrheitswert rauskommen.
 		{
 			System.out.println("Die eingegebene Zahl ist kleiner als 30");
 		}	
@@ -50,7 +50,7 @@ public class Modul_05_Die_verschiedenen_Kontrollstrukturen
 		//Die if mit else Verzweigung	-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 		
 		
-		if(zahl < 30)	//erste Bedingung
+		if(zahl < 30)		//erste Bedingung
 		{
 			System.out.println("Die eingegebene Zahl ist kleiner als 30");
 		}
@@ -60,12 +60,12 @@ public class Modul_05_Die_verschiedenen_Kontrollstrukturen
 			System.out.println("Die eingebene Zahl ist kleiner als Zahl 30");
 		}
 		
-		else	//Wenn die oberen Bedingungen False ergeben, wird dieses Ergebnis ausgeführt. Das Ergebnis dieser Bedingung ist FALSE
+		else			//Wenn die oberen Bedingungen False ergeben, wird dieses Ergebnis ausgeführt. Das Ergebnis dieser Bedingung ist FALSE
 		{
 			System.out.println("Die eingebene Zahl ist gleich die Zahl 30");
 		}
 		
-		//Bevor man mit einer Verzweigung anfängt, sollte man überlegen wieviele Bedingungen man haben will.
+					//Bevor man mit einer Verzweigung anfängt, sollte man überlegen wieviele Bedingungen man haben will.
 
 		
 		//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -176,19 +176,19 @@ public class Modul_05_Die_verschiedenen_Kontrollstrukturen
 		}
 		
 		/*Schleifenkopf:	Dieser fängt mit for an und wird in 3 Bereiche durch ein Semikolon (;) getrennt.
-		 					Im erster Bereich wird eine Zählvariable initialisiert, hier mit int i = 0
-							Im zweiten Bereich ist die Schleifenbedingung, die auch hier ein Wahrheitswert ergeben muss, hier mit i <= 10
-							Im dritten Bereich ist ein Inkrement oder Dekrement enthalten, in diesem Fall ein Post-Inkrement, hier mit i++
-							Da i++ so ist wie i = i + 1, kann man dies auch so im Schleifenkopf schreiben, oder z.B. i = i + 3
+		 				Im erster Bereich wird eine Zählvariable initialisiert, hier mit int i = 0
+						Im zweiten Bereich ist die Schleifenbedingung, die auch hier ein Wahrheitswert ergeben muss, hier mit i <= 10
+						Im dritten Bereich ist ein Inkrement oder Dekrement enthalten, in diesem Fall ein Post-Inkrement, hier mit i++
+						Da i++ so ist wie i = i + 1, kann man dies auch so im Schleifenkopf schreiben, oder z.B. i = i + 3
 		
 		Ablauf der for Schleife		
-		 			1. => Erster Bereich, die Initialisierung, wird nur einmal ausgeführt 								1. => int i = 0 
+		 			1. => Erster Bereich, die Initialisierung, wird nur einmal ausgeführt 						1. => int i = 0 
 					2. => Zweiter Bereich, die Bedingung, mit TRUE gehts weiter, mit FALSE erfolgt ein Abbruch			2. => i <= 10 
-					3. => Die Ausführung, der Inhalt im geschweiften Klammerpaar 										3. => System.out.println("durchlauf Nr: " + i);
-					4. => Dritter Bereich, Inkrement oder Dekrement														4. => i++
-					2. => Zweiter Bereich																				2. => i <= 10 
-					3. => Die Ausführung																				3. => System.out.println("durchlauf Nr: " + i);
-					4. => Dritter Bereich																				4. => i++
+					3. => Die Ausführung, der Inhalt im geschweiften Klammerpaar 							3. => System.out.println("durchlauf Nr: " + i);
+					4. => Dritter Bereich, Inkrement oder Dekrement									4. => i++
+					2. => Zweiter Bereich												2. => i <= 10 
+					3. => Die Ausführung												3. => System.out.println("durchlauf Nr: " + i);
+					4. => Dritter Bereich												4. => i++
 					usw. bis in diesen Fall i <= 10 FALSE ergibt
 		*/
 		
@@ -197,7 +197,7 @@ public class Modul_05_Die_verschiedenen_Kontrollstrukturen
 		//Einschub: Sichtbarkeit von Variablen	---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 		
 		
-		//		Block = ein geschweiftes Klammerpaar
+		//Block = ein geschweiftes Klammerpaar
 		
 		for(int i = 0; i <= 10; i++ ) //Schleifenkopf
 		{
