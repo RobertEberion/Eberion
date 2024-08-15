@@ -20,7 +20,7 @@ public class Modul_00_Zusätze {
 		 * 	Double wird in eine long Ganzzahl gerundet
 		 * 
 		 * 	Math.floor
-		 *  Rundet die Zahl mit eine Kommastelle auf
+		 *  	Rundet die Zahl mit eine Kommastelle auf
 		 */
 		
 		//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	
