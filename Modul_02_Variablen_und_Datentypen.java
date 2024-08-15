@@ -44,7 +44,7 @@ public class Modul_02_Variablen_und_Datentypen {
 		 * 		float						32	Bit				1.40239846E-45			bis	3.40282347E+38	
 		 * 		double						64	Bit				4.94065645841246544E-324	bis	1.79769131486231570E+308
 		 * 	
-		 * 	Komplexer Datentyp
+		 * 		Komplexer Datentyp
 		 * 		String	= können mehrere Zeichen gespeichert werden
 		*/
 		
