@@ -16,7 +16,7 @@ public class Modul_03_Ein_und_Ausgabe_in_Java {
 		System.out.print(4); //print ohne Zeilenumbruch
 		System.out.println(einString); //println mit Zeilenumbruch
 		
-		System.out.println(zahl);		//Mit Variable
+		System.out.println(zahl); //Mit Variable
 		System.out.println("Ich bin irgendetwas" + " " + 4); //Verkettung
 		
 		//------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
